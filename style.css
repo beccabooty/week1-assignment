@@ -3,3 +3,85 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    height: 150px;
+background-color: pink;
+font-family: "Coral Pixels";
+display: flex;
+flex-direction: row;
+justify-items: flex-start;
+align-items: center;
+}
+
+.sectionOne{
+    height: 1000px;
+    background-image:url(https://i.pinimg.com/736x/f0/40/c4/f040c474984f0b3afa8de6fb7961bc97.jpg) ;
+display:flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+}
+
+.sectionTwo{
+    height: 1000px;
+    background-image:url(https://i.pinimg.com/736x/93/fe/c9/93fec96f7dd7056beffb402dc3a4b1f8.jpg);
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionThree{
+    height: 1000px;
+    background-image:url(https://i.pinimg.com/736x/84/8d/75/848d757cfa6429655bf6bfe268524d2e.jpg);
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    height: 75px;
+background-color: pink;
+font-family: "Coral Pixels";
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-items: center;
+}
+
+.cornerLogo{
+    font-size: 70px;
+}
+
+h3{
+    font-family:"Tagesschrift";
+    font-size: 80px;
+color: white;
+}
+
+h2{
+    font-family:"Tagesschrift";
+    font: size 60px;
+    color: palevioletred;
+}
+
+button{
+background-color: pink;
+color: white;
+font-family: "Coral Pixels";
+text-align: center;
+font-size: 60px;
+padding: 40px, 40px;
+border: none;
+border-radius: 8px;
+}
+
+.coral-pixels-regular {
+    font-family: "Coral Pixels", serif;
+    font-weight: 400;
+    font-style: normal;}
+.tagesschrift-regular {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;}
