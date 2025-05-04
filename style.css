@@ -17,8 +17,8 @@ align-items: center;
     height: 1000px;
     background-image:url(https://i.pinimg.com/736x/f0/40/c4/f040c474984f0b3afa8de6fb7961bc97.jpg) ;
 display:flex;
-justify-content: flex-start;
-align-items: center;
+justify-content: center;
+align-items: flex-start;
 flex-direction: column;
 }
 
@@ -26,8 +26,8 @@ flex-direction: column;
     height: 1000px;
     background-image:url(https://i.pinimg.com/736x/93/fe/c9/93fec96f7dd7056beffb402dc3a4b1f8.jpg);
     display:flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
 }
 
@@ -35,8 +35,8 @@ flex-direction: column;
     height: 1000px;
     background-image:url(https://i.pinimg.com/736x/84/8d/75/848d757cfa6429655bf6bfe268524d2e.jpg);
     display:flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
 }
 
@@ -44,10 +44,11 @@ footer{
     height: 75px;
 background-color: pink;
 font-family: "Coral Pixels";
+font-size: 30px;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 align-items: center;
-justify-items: center;
+justify-content: center;
 }
 
 .cornerLogo{
@@ -62,8 +63,16 @@ color: white;
 
 h2{
     font-family:"Tagesschrift";
-    font: size 60px;
+    font-size: 35px;
     color: palevioletred;
+}
+
+.navBarLink {
+    font-family:"Tagesscrift";
+    font-size: 30px;
+    color: darkolivegreen;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 button{
